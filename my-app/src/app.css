@@ -43,6 +43,20 @@ body {
     background-color: hsl(200, 100%, 40%);
 }
 
+.refresh{
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    padding: .5em 1em;
+    border-radius: .3em;
+    border: none;
+    cursor: pointer;
+}
+
+.refresh:hover {
+    background-color: hsl(200, 100%, 40%);
+}
+
+
 .card-grid {
     display: grid;
     align-items: center;

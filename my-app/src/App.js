@@ -3,6 +3,7 @@ import FlashcardList from './FlashcardList';
 import './app.css'
 import axios from 'axios'
 
+
 function App() {
   const [flashcards, setFlashcards] = useState([])
   const [categories, setCategories] = useState([])
@@ -71,6 +72,9 @@ function App() {
         </div>
         <div className="form-group">
           <button className="btn">Generate</button>
+        </div>
+        <div className="form-group">
+          <button className="refresh">Refresh</button>
         </div>
       </form>
       <div className="container">
